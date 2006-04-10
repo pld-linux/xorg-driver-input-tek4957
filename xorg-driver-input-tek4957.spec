@@ -1,12 +1,12 @@
 Summary:	X.org input driver for Tektronix 4957 tablet
 Summary(pl):	Sterownik wej¶ciowy X.org dla tabletów Tektronix 4957
 Name:		xorg-driver-input-tek4957
-Version:	1.0.0.5
+Version:	1.1.0
 Release:	0.1
 License:	MIT
 Group:		X11/Applications
-Source0:	http://xorg.freedesktop.org/releases/X11R7.0/src/driver/xf86-input-tek4957-%{version}.tar.bz2
-# Source0-md5:	811926006feb8370ff851dce4934ad0b
+Source0:	http://xorg.freedesktop.org/releases/individual/driver/xf86-input-tek4957-%{version}.tar.bz2
+# Source0-md5:	be8a4bd474ad6c85b93f66dd6fcfa6ee
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake
@@ -15,7 +15,8 @@ BuildRequires:	pkgconfig >= 1:0.19
 BuildRequires:	xorg-proto-inputproto-devel
 BuildRequires:	xorg-proto-randrproto-devel
 BuildRequires:	xorg-util-util-macros >= 0.99.2
-BuildRequires:	xorg-xserver-server-devel >= 0.99.3
+BuildRequires:	xorg-xserver-server-devel >= 1.0.99.901
+Requires:	xorg-xserver-server >= 1.0.99.901
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
