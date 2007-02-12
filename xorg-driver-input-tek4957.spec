@@ -1,5 +1,5 @@
 Summary:	X.org input driver for Tektronix 4957 tablet
-Summary(pl):	Sterownik wej∂ciowy X.org dla tabletÛw Tektronix 4957
+Summary(pl.UTF-8):   Sterownik wej≈õciowy X.org dla tablet√≥w Tektronix 4957
 Name:		xorg-driver-input-tek4957
 Version:	1.1.0
 Release:	0.1
@@ -22,8 +22,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 X.org input driver for Tektronix 4957 tablet.
 
-%description -l pl
-Sterownik wej∂ciowy X.org dla tabletÛw Tektronix 4957.
+%description -l pl.UTF-8
+Sterownik wej≈õciowy X.org dla tablet√≥w Tektronix 4957.
 
 %prep
 %setup -q -n xf86-input-tek4957-%{version}
